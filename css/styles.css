@@ -566,8 +566,6 @@ align-items: flex-start;
   .location-page{
     padding:0 20px;
   }
-
-
   
 }
 @media screen and (max-width: 500px) {
@@ -575,6 +573,10 @@ align-items: flex-start;
   .description h1{
     font-size: 35px;  
     color: var(--secondary);
+  }
+
+  .gallery-title, .location-title{
+    margin-top: 50px;
   }
 
 }
